@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: CarGo;
+    src: url("CarGoFrame31Demo-1Bg2.ttf");
+}
+@font-face {
+    font-family: Adventure;
+    src: url("CarGoPlain31Demo-npBg.ttf");
+}
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;}
+
+#title {
+    font-family: Adventure;
+    font-size: 2.5rem;
+    /* background: linear-gradient(to left, rgba(134, 134, 134, 0.641) 25%, rgb(0, 2, 50) 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+     */
+     color:rgb(48, 48, 48);
+}
+
+.reg-nums-list li {
+    list-style: none;
+    padding: 0.6rem;
+    border: 1px gray solid;
+    margin: 0.5rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    font-family: CarGo;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.reg-nums-list-template li {
+    list-style: none;
+    padding: 0.6rem;
+    border: 1px gray solid;
+    margin: 0.5rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    font-family: CarGo;
+    font-size: 2.5rem;
+    color: black;
+}
+
+select{
+    border-radius: 5px;
+    padding: 0.45rem;
+    background-color: rgb(220, 227, 255);
+    border: 1px rgb(163, 171, 255) solid;
+    color: rgb(50, 50, 50);
+
+}
+
+#town {
+    color: rgb(118, 117, 117);
+}
+.town-count {
+    color: rgb(64, 64, 64);
+}
+
+#cpt-card {
+    border-left: 4px rgba(0, 0, 255, 0.285) solid;
+    border-radius: 0px;
+    /* background: rgba(14, 14, 255, 0.072); */
+}
+#stellies-card {
+    border-left: 4px rgba(255, 208, 0, 0.327) solid;
+    border-radius: 0px;
+    /* background: rgba(255, 203, 14, 0.072); */
+}
+#bellville-card {
+    border-left: 4px rgb(0, 191, 35, 0.285) solid;
+    border-radius: 0px;
+    /* background: rgba(14, 255, 74, 0.072); */
+}
+#paarl-card {
+    border-left: 4px rgb(255, 0, 200, 0.285) solid;
+    border-radius: 0px;
+    /* background: rgba(255, 14, 223, 0.072); */
+}
+#kr-card {
+    border-left: 4px rgba(255, 51, 0, 0.285) solid;
+    border-radius: 0px;
+    /* background: rgba(255, 203, 14, 0.072); */
+}
+#malmesbury-card {
+    border-left: 4px rgba(0, 204, 255, 0.285) solid;
+    border-radius: 0px;
+    /* background: rgba(14, 14, 255, 0.072); */
+}
+.card{
+    border-left: 4px rgba(0, 76, 255, 0.518) solid !important;
+    /* box-shadow: 0 0 6px rgb(122, 122, 122); */
+}
+.selected-card{
+    background-color: rgba(118, 118, 255, 0.2);
+    border: 1px rgb(68, 68, 255) solid;
+}
+.errors{
+    background-color: rgba(255, 0, 0, 0.124);
+    padding: 0.6rem;
+    border-radius: 20px;
+    color:rgb(218, 2, 2);
+    border: 1px rgb(208, 0, 0) solid;
+    display: none;
+}
+#duplicate-error{
+    background-color: rgba(255, 128, 0, 0.124) !important;
+    color:rgb(255, 103, 32) !important;
+    border: 1px rgb(241, 152, 9) solid !important;
+}
